@@ -1,0 +1,19 @@
+.hero::after {
+  background: linear-gradient(90deg, rgba(248, 244, 237, .92) 0%, rgba(248, 244, 237, .72) 34%, rgba(248, 244, 237, .16) 62%, transparent 74%);
+}
+
+.hero-content > p:last-of-type {
+  color: #3f3b37;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .45);
+  background: rgba(248, 244, 237, .82);
+  border-left: 2px solid #d8674c;
+  padding: 11px 14px;
+  backdrop-filter: blur(4px);
+}
+
+@media (max-width: 850px) {
+  .hero::after {
+    background: linear-gradient(90deg, rgba(248, 244, 237, .94), rgba(248, 244, 237, .28));
+  }
+}
+
